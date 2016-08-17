@@ -1,0 +1,39 @@
+{"list" : [
+	{"a" : [
+		{"test10/test10-2.txt" : 1},
+		{"test10/test10-5.txt" : 1},
+		{"test10/test10-4.txt" : 1},
+		{"test10/test10-3.txt" : 1},
+		{"test10/test10-1.txt" : 1}
+	]},
+	{"had" : [
+		{"test10/test10-2.txt" : 1},
+		{"test10/test10-5.txt" : 1},
+		{"test10/test10-4.txt" : 1},
+		{"test10/test10-3.txt" : 1},
+		{"test10/test10-1.txt" : 1}
+	]},
+	{"lamb" : [
+		{"test10/test10-2.txt" : 1},
+		{"test10/test10-5.txt" : 1},
+		{"test10/test10-4.txt" : 1},
+		{"test10/test10-3.txt" : 1},
+		{"test10/test10-1.txt" : 1}
+	]},
+	{"little" : [
+		{"test10/test10-2.txt" : 2},
+		{"test10/test10-7.txt" : 2},
+		{"test10/test10-6.txt" : 2},
+		{"test10/test10-5.txt" : 2},
+		{"test10/test10-4.txt" : 2},
+		{"test10/test10-3.txt" : 2},
+		{"test10/test10-1.txt" : 2}
+	]},
+	{"mary" : [
+		{"test10/test10-2.txt" : 1},
+		{"test10/test10-5.txt" : 1},
+		{"test10/test10-4.txt" : 1},
+		{"test10/test10-3.txt" : 1},
+		{"test10/test10-1.txt" : 1}
+	]}
+]}

@@ -1,0 +1,18 @@
+{"list" : [
+	{"a" : [
+		{"test7/test7-2/test7.txt" : 1},
+		{"test7/test7-1/test7.txt" : 1}
+	]},
+	{"is" : [
+		{"test7/test7-2/test7.txt" : 1},
+		{"test7/test7-1/test7.txt" : 1}
+	]},
+	{"test" : [
+		{"test7/test7-2/test7.txt" : 1},
+		{"test7/test7-1/test7.txt" : 1}
+	]},
+	{"this" : [
+		{"test7/test7-2/test7.txt" : 1},
+		{"test7/test7-1/test7.txt" : 1}
+	]}
+]}

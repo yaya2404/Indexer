@@ -1,0 +1,8 @@
+My implementation of the index uses the sorted linked list to store tokens. The way I stored the records for the tokens was through 
+the use of another linked list. The linked list for the records of the token is attached to the token node. 
+So overall, this implementation of index uses two linked lists to sort and store tokens/records.
+In terms of space usage, the amount of stored tokens in the list would be equivalent to the amount of readable tokens in the file (n tokens) 
+as well as amount of items stored in the record linked lists (m records). One point I want to make about space usage in the records linked list is
+about allocating space for the filename/pathname to store in the record. My sortFile function allocates space for the pathname once, iterates 
+through all the tokens in the given file which is then sent through SLinsert along with the pathname. So instead of constantly allocating the pathname for (m records), the path name is allocated for every file and not for every record.
+Runtime of overall program: (n * m)

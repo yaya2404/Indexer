@@ -1,0 +1,59 @@
+Input: ./index <index name> hue
+Directory hue contains the following directories/files
+Directory askdjan -> t.txt, text.txt
+Directory aslk -> t.txt, text.txt
+Directory asodias -> t.txt, text.txt
+t.txt, text.txt
+Output: This testcase shows proper prepended pathname, sorted tokens, and sorted records (by frequency).
+{"list" : [
+	{"an" : [
+		{"hue/asodias/text.txt" : 4},
+		{"hue/aslk/text.txt" : 4},
+		{"hue/askdjan/text.txt" : 4},
+		{"hue/text.txt" : 4},
+		{"hue/asodias/t.txt" : 1},
+		{"hue/aslk/t.txt" : 1},
+		{"hue/askdjan/t.txt" : 1},
+		{"hue/t.txt" : 1}
+	]},
+	{"example12" : [
+		{"hue/asodias/text.txt" : 3},
+		{"hue/aslk/text.txt" : 3},
+		{"hue/askdjan/text.txt" : 3},
+		{"hue/text.txt" : 3},
+		{"hue/asodias/t.txt" : 1},
+		{"hue/aslk/t.txt" : 1},
+		{"hue/askdjan/t.txt" : 1},
+		{"hue/t.txt" : 1}
+	]},
+	{"mail" : [
+		{"hue/asodias/text.txt" : 2},
+		{"hue/aslk/text.txt" : 2},
+		{"hue/askdjan/text.txt" : 2},
+		{"hue/text.txt" : 2},
+		{"hue/asodias/t.txt" : 1},
+		{"hue/aslk/t.txt" : 1},
+		{"hue/askdjan/t.txt" : 1},
+		{"hue/t.txt" : 1}
+	]},
+	{"rutgers" : [
+		{"hue/asodias/t.txt" : 1},
+		{"hue/asodias/text.txt" : 1},
+		{"hue/aslk/t.txt" : 1},
+		{"hue/aslk/text.txt" : 1},
+		{"hue/askdjan/t.txt" : 1},
+		{"hue/askdjan/text.txt" : 1},
+		{"hue/text.txt" : 1},
+		{"hue/t.txt" : 1}
+	]},
+	{"this" : [
+		{"hue/asodias/text.txt" : 5},
+		{"hue/aslk/text.txt" : 5},
+		{"hue/askdjan/text.txt" : 5},
+		{"hue/text.txt" : 5},
+		{"hue/asodias/t.txt" : 1},
+		{"hue/aslk/t.txt" : 1},
+		{"hue/askdjan/t.txt" : 1},
+		{"hue/t.txt" : 1}
+	]}
+]}
